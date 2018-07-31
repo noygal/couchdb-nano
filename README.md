@@ -753,7 +753,7 @@ fs.readFile('rabbit.png', (err, data) => {
 });
 ```
 
-### db.multipart.insertAsStream(doc, attachments, params, [callback])
+### db.attachment.insertAsStream(doc, attachments, params, [callback])
 
 It may be more memory-efficient to pipe a stream of data from a source (file, network etc) to a CouchDB attachment:
 
